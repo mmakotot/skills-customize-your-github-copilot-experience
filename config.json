@@ -40,6 +40,20 @@
         }
       ]
     },
+      {
+        "id": "fastapi-rest-api",
+        "title": "Construindo APIs REST com FastAPI",
+        "description": "Crie uma API REST simples usando FastAPI para manipular tarefas.",
+        "path": "assignments/fastapi-rest-api",
+        "dueDate": "2025-10-15",
+        "attachments": [
+          {
+            "name": "Starter Code",
+            "file": "starter-code.py",
+            "type": "python"
+          }
+        ]
+      },
     {
       "id": "data-analysis",
       "title": "Data Analysis",
