@@ -1,4 +1,4 @@
-# Desafio: Jogo da Forca em Python
+# Projeto: Jogo da Forca em Python
 
 ## Objetivo
 
@@ -6,30 +6,38 @@ Implemente o clássico jogo da forca utilizando Python. O objetivo é adivinhar 
 
 ---
 
-## Tarefas
+## Estrutura do Projeto
 
-### Tarefa 1: Seleção da Palavra e Exibição Inicial
-
-**Objetivo:**  
-Selecionar uma palavra aleatória de uma lista e exibir o progresso inicial do jogo.
-
-**Critérios de Aceite:**
-- Selecionar uma palavra aleatória de uma lista pré-definida.
-- Exibir o progresso da palavra usando sublinhados (`_`) para cada letra.
+- `hangman.py`: Arquivo principal com a implementação do jogo.
+- `README.md`: Instruções e requisitos do projeto.
 
 ---
 
-### Tarefa 2: Lógica de Palpites e Finalização
+## Requisitos
 
-**Objetivo:**  
-Permitir que o jogador faça tentativas de letras, atualize o progresso, rastreie erros e finalize o jogo com mensagens apropriadas.
+### 1. Seleção da Palavra e Exibição Inicial
+
+- Selecionar uma palavra aleatória de uma lista pré-definida.
+- Exibir o progresso inicial do jogo usando sublinhados (`_`) para cada letra.
 
 **Critérios de Aceite:**
-- Receber palpites de letras do usuário.
-- Atualizar o progresso da palavra conforme as letras corretas forem descobertas.
-- Rastrear o número de tentativas incorretas restantes.
-- Encerrar o jogo quando a palavra for adivinhada ou as tentativas acabarem.
-- Exibir mensagens de vitória ou derrota ao final.
+- Palavra escolhida aleatoriamente.
+- Progresso inicial exibido corretamente.
+
+---
+
+### 2. Lógica de Palpites e Finalização
+
+- Permitir que o jogador faça tentativas de letras.
+- Atualizar o progresso conforme as letras corretas forem descobertas.
+- Rastrear tentativas incorretas restantes.
+- Finalizar o jogo com mensagens de vitória ou derrota.
+
+**Critérios de Aceite:**
+- Palpites de letras recebidos do usuário.
+- Progresso atualizado corretamente.
+- Tentativas incorretas rastreadas.
+- Mensagens de vitória ou derrota exibidas ao final.
 
 ---
 
@@ -39,12 +47,17 @@ Permitir que o jogador faça tentativas de letras, atualize o progresso, rastrei
 - Siga as tarefas na ordem apresentada.
 - Utilize comentários explicativos no código.
 - Teste o programa antes de entregar.
+- Mantenha o código organizado e legível.
+
+---
 
 ## Dicas
 
 - Utilize o módulo `random` para selecionar a palavra.
 - Use listas para manipular o progresso da palavra.
-- Mantenha o código organizado e legível.
+- Utilize funções para separar responsabilidades do código.
+
+---
 
 ## Entrega
 
